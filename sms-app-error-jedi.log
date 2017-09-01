@@ -1,0 +1,219 @@
+[31-Aug-2017 00:36:40 Asia/Colombo] Message received gedi Akhitha
+[31-Aug-2017 00:36:55 Asia/Colombo] PHP Notice:  Undefined offset: 1 in G:\xampp\htdocs\ideapro\sms.php on line 47
+[31-Aug-2017 00:36:55 Asia/Colombo] Message received 
+[31-Aug-2017 00:43:02 Asia/Colombo] Message received gedi Akhitha
+[31-Aug-2017 00:43:03 Asia/Colombo] PHP Warning:  file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:140770FC:SSL routines:SSL23_GET_SERVER_HELLO:unknown protocol in G:\xampp\htdocs\ideapro\lib\SMSSender.php on line 44
+[31-Aug-2017 00:43:03 Asia/Colombo] PHP Warning:  file_get_contents(): Failed to enable crypto in G:\xampp\htdocs\ideapro\lib\SMSSender.php on line 44
+[31-Aug-2017 00:43:03 Asia/Colombo] PHP Warning:  file_get_contents(https://localhost:7000/sms/send): failed to open stream: operation failed in G:\xampp\htdocs\ideapro\lib\SMSSender.php on line 44
+[31-Aug-2017 00:43:03 Asia/Colombo] PHP Notice:  Trying to get property of non-object in G:\xampp\htdocs\ideapro\lib\SMSSender.php on line 50
+[31-Aug-2017 00:43:03 Asia/Colombo] PHP Notice:  Trying to get property of non-object in G:\xampp\htdocs\ideapro\lib\SMSSender.php on line 51
+[31-Aug-2017 00:43:03 Asia/Colombo] Passed Exception SMSServiceException: Invalid server URL in G:\xampp\htdocs\ideapro\lib\SMSSender.php:54
+Stack trace:
+#0 G:\xampp\htdocs\ideapro\lib\SMSSender.php(46): SMSSender->handleResponse(NULL)
+#1 G:\xampp\htdocs\ideapro\lib\SMSSender.php(34): SMSSender->sendRequest('{"applicationId...')
+#2 G:\xampp\htdocs\ideapro\sms2.php(66): SMSSender->sendMessage('May the force b...', 'tel:94771122336')
+#3 {main}
+[31-Aug-2017 00:53:02 Asia/Colombo] PHP Notice:  Undefined offset: 1 in G:\xampp\htdocs\ideapro\sms2.php on line 28
+[31-Aug-2017 00:53:02 Asia/Colombo] Message received go
+[31-Aug-2017 00:53:26 Asia/Colombo] PHP Notice:  Undefined offset: 1 in G:\xampp\htdocs\ideapro\sms2.php on line 28
+[31-Aug-2017 00:53:26 Asia/Colombo] Message received Akhitha
+[31-Aug-2017 00:54:04 Asia/Colombo] Message received gedi Akhitha
+[31-Aug-2017 00:55:05 Asia/Colombo] Broadcast Message gedi go
+[31-Aug-2017 00:55:06 Asia/Colombo] Passed Exception SMSServiceException: Invalid MSISDN Error in G:\xampp\htdocs\ideapro\lib\SMSSender.php:58
+Stack trace:
+#0 G:\xampp\htdocs\ideapro\lib\SMSSender.php(46): SMSSender->handleResponse(Object(stdClass))
+#1 G:\xampp\htdocs\ideapro\lib\SMSSender.php(34): SMSSender->sendRequest('{"applicationId...')
+#2 G:\xampp\htdocs\ideapro\lib\SMSSender.php(26): SMSSender->sendMessage('', Array)
+#3 G:\xampp\htdocs\ideapro\sms2.php(41): SMSSender->broadcastMessage('')
+#4 {main}
+[31-Aug-2017 00:57:37 Asia/Colombo] Broadcast Message gedi go
+[31-Aug-2017 00:59:52 Asia/Colombo] Broadcast Message gedi go
+[31-Aug-2017 01:13:05 Asia/Colombo] PHP Notice:  Undefined offset: 1 in G:\xampp\htdocs\ideapro\sms2.php on line 29
+[31-Aug-2017 01:13:05 Asia/Colombo] Message received 0.25v0.11a
+[31-Aug-2017 01:13:05 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 01:13:05 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:13:05 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:13:05 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:13:05 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:17:02 Asia/Colombo] PHP Notice:  Undefined offset: 1 in G:\xampp\htdocs\ideapro\sms2.php on line 29
+[31-Aug-2017 01:17:02 Asia/Colombo] Message received 53.32v07.96a
+[31-Aug-2017 01:17:02 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 01:17:02 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:17:02 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:17:02 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:17:02 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:17:44 Asia/Colombo] PHP Notice:  Undefined offset: 1 in G:\xampp\htdocs\ideapro\sms2.php on line 29
+[31-Aug-2017 01:17:44 Asia/Colombo] Message received 53.32v07.96a
+[31-Aug-2017 01:17:44 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 01:17:44 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:17:44 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:17:44 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:17:44 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:18:12 Asia/Colombo] Message received genny 53.32v07.96a
+[31-Aug-2017 01:18:12 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 01:18:12 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:18:12 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:18:12 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:18:12 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:18:56 Asia/Colombo] Message received genny 53.32v07.96a
+[31-Aug-2017 01:18:56 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 01:18:56 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:18:56 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:18:56 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:18:56 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:19:37 Asia/Colombo] Message received genny 53.32v07.96a
+[31-Aug-2017 01:19:37 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 01:19:37 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:19:37 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:19:37 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:19:37 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:21:03 Asia/Colombo] Message received genny 53.32v07.96a
+[31-Aug-2017 01:21:03 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 01:21:03 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:21:03 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:21:03 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:21:03 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:21:19 Asia/Colombo] Message received genny 53.32v07.96a
+[31-Aug-2017 01:21:19 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 01:21:19 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:21:19 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:21:19 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:21:19 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:25:11 Asia/Colombo] Message received genny 53.32v07.96a
+[31-Aug-2017 01:25:11 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 01:25:11 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:25:11 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:25:11 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:25:11 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:26:26 Asia/Colombo] Message received genny 53.32v07.96a
+[31-Aug-2017 01:26:26 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 01:26:26 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:26:26 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:26:26 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:26:26 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:29:28 Asia/Colombo] Message received genny 53.32v07.96a
+[31-Aug-2017 01:29:28 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 01:29:28 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:29:28 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:29:28 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:29:28 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:32:17 Asia/Colombo] Message received genny 53.32v07.96a
+[31-Aug-2017 01:32:17 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 01:32:17 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:32:17 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:32:17 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:32:17 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:33:07 Asia/Colombo] Message received genny 53.32v07.96a
+[31-Aug-2017 01:33:07 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 01:33:07 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:33:07 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 01:33:07 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 01:33:07 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 07:18:30 Asia/Colombo] PHP Notice:  Undefined offset: 1 in G:\xampp\htdocs\ideapro\sms.php on line 47
+[31-Aug-2017 07:18:30 Asia/Colombo] Message received 56.23v07.92a
+[31-Aug-2017 07:18:51 Asia/Colombo] PHP Notice:  Undefined offset: 1 in G:\xampp\htdocs\ideapro\sms2.php on line 29
+[31-Aug-2017 07:18:51 Asia/Colombo] Message received 56.23v07.92a
+[31-Aug-2017 07:18:51 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 07:18:51 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 07:18:51 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 07:18:51 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 07:18:51 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 07:19:44 Asia/Colombo] Message received genny 56.23v07.92a
+[31-Aug-2017 07:19:44 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 07:19:44 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 07:19:44 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 07:19:44 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 07:19:44 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 07:23:18 Asia/Colombo] Message received genny 56.23v07.92a
+[31-Aug-2017 07:23:18 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 07:23:18 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 07:23:18 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 07:23:18 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 07:23:18 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 07:24:29 Asia/Colombo] Message received genny 48.02v07.92a
+[31-Aug-2017 07:24:29 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 07:24:29 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 07:24:29 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 07:24:29 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 07:24:29 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 07:25:32 Asia/Colombo] Message received genny 53.32v07.92a
+[31-Aug-2017 07:25:32 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 07:25:32 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 07:25:32 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 07:25:32 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 07:25:32 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 20:37:58 Asia/Colombo] PHP Notice:  Undefined offset: 1 in G:\xampp\htdocs\ideapro\sms.php on line 47
+[31-Aug-2017 20:37:58 Asia/Colombo] Message received 56.24v11.23a
+[31-Aug-2017 20:38:32 Asia/Colombo] PHP Notice:  Undefined offset: 1 in G:\xampp\htdocs\ideapro\sms2.php on line 29
+[31-Aug-2017 20:38:32 Asia/Colombo] Message received 56.24v11.23a
+[31-Aug-2017 20:38:32 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 20:38:32 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 20:38:32 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 20:38:32 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 20:38:32 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 20:38:53 Asia/Colombo] PHP Notice:  Undefined offset: 1 in G:\xampp\htdocs\ideapro\sms2.php on line 29
+[31-Aug-2017 20:38:53 Asia/Colombo] Message received 56.24v07.23a
+[31-Aug-2017 20:38:53 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 20:38:53 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 20:38:53 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 20:38:53 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 20:38:53 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 22:25:23 Asia/Colombo] PHP Notice:  Undefined offset: 1 in G:\xampp\htdocs\ideapro\sms2.php on line 29
+[31-Aug-2017 22:25:23 Asia/Colombo] Message received 56.24v07.23a
+[31-Aug-2017 22:25:23 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 22:25:23 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 22:25:23 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 22:25:23 Asia/Colombo] PHP Notice:  Undefined variable: queryl in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 22:25:23 Asia/Colombo] PHP Warning:  mysqli_query(): Empty query in G:\xampp\htdocs\ideapro\sms2.php on line 71
+[31-Aug-2017 22:31:05 Asia/Colombo] PHP Notice:  Undefined offset: 1 in G:\xampp\htdocs\ideapro\sms2.php on line 29
+[31-Aug-2017 22:31:05 Asia/Colombo] Message received 56.24v07.23a
+[31-Aug-2017 22:31:05 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 22:31:05 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 22:31:05 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 22:31:57 Asia/Colombo] Message received genny 56.24v07.23a
+[31-Aug-2017 22:31:57 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 69
+[31-Aug-2017 22:31:57 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 22:31:57 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 22:33:34 Asia/Colombo] Message received genny 56.24v07.23a
+[31-Aug-2017 22:33:34 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 22:33:34 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 72
+[31-Aug-2017 22:33:34 Asia/Colombo] PHP Notice:  Undefined variable: current_voltge in G:\xampp\htdocs\ideapro\sms2.php on line 72
+[31-Aug-2017 22:37:37 Asia/Colombo] Message received genny 56.24v07.23a
+[31-Aug-2017 22:37:37 Asia/Colombo] PHP Notice:  Undefined variable: mili_time in G:\xampp\htdocs\ideapro\sms2.php on line 70
+[31-Aug-2017 22:44:50 Asia/Colombo] Message received genny 56.24v07.23a
+[31-Aug-2017 22:54:01 Asia/Colombo] Message received genny 56.24v07.23a
+[31-Aug-2017 22:54:23 Asia/Colombo] Message received genny 56.24v07.23a
+[31-Aug-2017 22:55:05 Asia/Colombo] Message received genny 48.02v07.39a
+[01-Sep-2017 00:19:26 Asia/Colombo] Message received genny 48.84v07.01a
+[01-Sep-2017 00:22:24 Asia/Colombo] Message received genny 48.84v07.01a
+[01-Sep-2017 00:50:56 Asia/Colombo] Message received genny 48.84v07.01a
+[01-Sep-2017 00:51:06 Asia/Colombo] Message received genny 48.84v07.01a
+[01-Sep-2017 00:51:11 Asia/Colombo] Message received genny 48.84v07.01a
+[01-Sep-2017 00:52:05 Asia/Colombo] Message received genny 50.10v13.21a
+[01-Sep-2017 00:52:20 Asia/Colombo] Message received genny 50.10v13.21a
+[01-Sep-2017 00:53:10 Asia/Colombo] Message received genny 50.10v13.21a
+[01-Sep-2017 00:54:09 Asia/Colombo] Message received genny 40.10v13.21a
+[01-Sep-2017 00:55:05 Asia/Colombo] Message received genny 40.10v13.21a
+[01-Sep-2017 00:55:23 Asia/Colombo] Message received genny 40.10v13.21a
+[01-Sep-2017 00:55:40 Asia/Colombo] Message received genny 40.10v13.21a
+[01-Sep-2017 00:56:03 Asia/Colombo] Message received genny 50.10v13.21a
+[01-Sep-2017 00:57:05 Asia/Colombo] Message received genny 50.10v13.21a
+[01-Sep-2017 00:57:15 Asia/Colombo] Message received genny 50.10v13.21a
+[01-Sep-2017 00:58:19 Asia/Colombo] Message received genny 50.10v13.21a
+[01-Sep-2017 00:58:30 Asia/Colombo] Message received genny 50.10v13.21a
+[01-Sep-2017 00:59:35 Asia/Colombo] Message received genny 50.10v13.21a
+[01-Sep-2017 01:00:29 Asia/Colombo] Message received genny 40.10v13.21a
+[01-Sep-2017 01:01:31 Asia/Colombo] Message received genny 40.10v13.21a
+[01-Sep-2017 01:01:43 Asia/Colombo] Message received genny 50.10v13.21a
+[01-Sep-2017 01:02:27 Asia/Colombo] Message received genny 50.10v13.21a
+[01-Sep-2017 01:02:35 Asia/Colombo] Message received genny 50.10v13.21a
+[01-Sep-2017 01:02:35 Asia/Colombo] Message received genny 50.10v13.21a
+[01-Sep-2017 01:02:42 Asia/Colombo] Message received genny 50.10v13.21a
+[01-Sep-2017 01:02:50 Asia/Colombo] Message received genny 40.10v13.21a
+[01-Sep-2017 01:02:58 Asia/Colombo] Message received genny 40.10v13.21a
+[01-Sep-2017 01:03:06 Asia/Colombo] Message received genny 40.10v13.21a
+[01-Sep-2017 01:03:12 Asia/Colombo] Message received genny 40.10v13.21a
+[01-Sep-2017 01:03:16 Asia/Colombo] Message received genny 40.10v13.21a
+[01-Sep-2017 01:03:23 Asia/Colombo] Message received genny 50.10v13.21a
+[01-Sep-2017 01:03:35 Asia/Colombo] Message received genny 50.10v13.21a
